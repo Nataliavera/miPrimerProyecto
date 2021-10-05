@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/JuegosParalimpicos/css/styles2.css">
+</head>
+<body>
+    <nav>
+        <section id="fondo">
+            <header id="cabeza">
+              <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+              </ul>
+            </header>
+          </section>
+    </nav>
+    <main>
+      <h1>Formulario</h1> <br>
+      <form action="" class="formulario">
+        <div > 
+          <h3>Tipo de Identificación</h3>
+          <select name="" id="">
+            <option value="0">--Elija una Opción--</option>
+            <option value="1">Cedula de ciudadania</option>
+            <option value="2">Cedula extranjera</option>
+            <option value="3">Tarjeta de identidad</option>
+            <option value="4">Pasaporte</option>
+          </select>
+        </div><hr>
+        <div>
+          <h3>Identificación</h3>
+           <input type="text" name="identificacion" id="" required pattern="[0-9]+">
+        </div><hr>
+        <div>
+          <h3>Apellidos</h3>
+            <input type="text" name="apellidos" id="" placeholder="Obligatorio max(20)letras">
+        </div><hr>
+        <div>
+          <h3>Nombre</h3>
+           <input type="text" name="nombre" id="" placeholder="Obligatorio max(20)letras">
+        </div><hr>
+        <div>
+          <h3>Fecha de Nacimiento</h3>
+            <input type="date" name="fecha" id="" required>
+        </div><hr>
+        <div>
+          <h3>Edad</h3>
+            <input type="number" name="edad" id="">
+        </div><hr>
+        <div>
+          <h3>Correo Electrónico</h3>
+            <input type="email" name="email" id="">
+        </div><hr>
+        <div>
+          <h3>País o Región</h3>
+          <select name="pais" id="">
+            <option value="0">--Elija una Opción--</option>
+            <option value="1">Argentina</option>
+            <option value="2">Bolivia</option>
+            <option value="3">Brasil</option>
+            <option value="4">Chile</option>
+            <option value="5">Colombia</option>
+            <option value="6">Costa Rica</option>
+            <option value="7">Cuba</option>
+            <option value="8">Ecuador</option>
+            <option value="9">El Salvador</option>
+            <option value="10">Guatemala</option>
+            <option value="11">Haití</option>
+            <option value="12">Honduras</option>
+            <option value="13">Jamaica</option>
+            <option value="14">México</option>
+            <option value="15">Nicaragua</option>
+            <option value="16">Paraguay</option>
+            <option value="17">Panamá</option>
+            <option value="18">Perú</option>
+            <option value="19">Puerto Rico</option>
+            <option value="20">República Dominicana</option>
+            <option value="21">Surinam</option>
+            <option value="22">Uruguay</option>
+            <option value="23">Venezuela</option>
+          </select>
+        </div><hr>
+        <div class="radio">
+            <h3>Genero</h3>
+            <input type="radio" name="Genero" id="femenino">
+            <label for="femenino">Femenino</label>
+
+            <input type="radio" name="Genero" id="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="Genero" id="otro">
+            <label for="otro">Prefiero no decir</label>
+          </div><hr>
+          <div class="radio">
+            <h3>¿Cuenta con alguna discapacidad?</h3>
+            <input type="radio" name="pregunta1" id="si1"><label for="si1">Sí</label>
+            <input type="radio" name="pregunta1" id="no1"><label for="no1">No</label> 
+          </div><hr>
+          <div class="radio">
+            <h3>¿Conoce a alquien que tenga alguna discapacidad?</h3>
+            <input type="radio" name="pregunta2" id="si2"><label for="si2">Sí</label>
+            <input type="radio" name="pregunta2" id="no2"><label for="no2">No</label>
+          </div><hr>
+          <div class="radio">
+            <h3>¿Ha sido victima de algún tipo de discriminación?</h3>
+            <input type="radio" name="pregunta3" id="si3"><label for="si3">Sí</label>
+            <input type="radio" name="pregunta3" id="no3"><label for="no3">No</label>
+          </div><hr>
+          <div class="radio">
+            <h3>¿Considera que el estado de las personas con discapacidad ejercen en igualdad de condiciones con los demás su derecho a las actividades recreativas, esparcimiento y el deporte?</h3>
+              <input type="radio" name="pregunta10" id="si10"><label for="si10">Sí</label> 
+              <input type="radio" name="pregunta10" id="no10"><label for="no10">No</label>
+              <input type="radio" name="pregunta10" id="nose10"><label for="nose10">No sé</label>
+          </div><hr>
+          <div class="radio">
+            <h3>¿Esta usted interesado en el deporte paralímpico o conoce sobre este?</h3>
+            <input type="radio" name="pregunta4" id="si4"><label for="si4">Sí</label>
+            <input type="radio" name="pregunta4" id="no4"><label for="no4">No</label>
+        </div><hr>
+        <div class="radio">
+          <h3>¿Cree usted que se debe de dar más importancia a estos deportistas?</h3>
+            <input type="radio" name="pregunta5" id="si5"><label for="si5">Sí</label>
+            <input type="radio" name="pregunta5" id="no5"><label for="no5">No</label>
+        </div><hr>
+        <div class="radio">
+          <h3>¿Ver o conocer la capacidad y esfuerzo que realizan los deportistas paralímpicos te genera algún tipo de sentimiento?</h3>
+          <input type="radio" name="pregunta6" id="si6"><label for="si6">Sí</label>
+          <input type="radio" name="pregunta6" id="no6"><label for="no6">No</label>
+          <input type="radio" name="pregunta6" id="nose6"><label for="nose6">No sé</label>
+        </div><hr>
+        <div >
+          <h3>Del 1 al 3, siendo el más bajo y 3 el más alto, señala qué sentimiento te puede generar o qué te genera ver un deportista Paralímpico</h3>
+          <select name="pregunta7" id="">
+            <option value="0"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        <label for="">Emoción</label> <br>
+            <select name="pregunta7" id="">
+              <option value="0"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select> 
+          <label for="">Motivación</label> <br>
+            <select name="pregunta7" id="">
+              <option value="0"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          <label for="">Pena </label>
+        </div><hr>
+        <div class="radio">
+          <h3>¿Conocía o conoce las disciplinas que se llevan a cabo en los juegos paralímpicos?</h3>
+            <input type="radio" name="pregunta8" id="si8"><label for="si8">Sí</label>
+            <input type="radio" name="pregunta8" id="no8"><label for="no8">No</label>
+        </div>
+        <div class="checkbox">
+          <h3>¿Qué disciplinas de deporte Paralímpico le gustaría conocer? *Elegir máximo 4 opciones</h3>
+            <table>
+              <tr>
+                <td><input type="checkbox" name="natacion" id="natacion"> <label for="natacion">Natación</label></td>
+                <td><input type="checkbox" name="tenis" id="tenis"><label for="tenis">Tenis</label></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="baloncesto" id="baloncesto"><label for="baloncesto">Baloncesto</label></td>
+                <td><input type="checkbox" name="atletismo" id="atletismo"><label for="atletismo">Atletismo</label></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="futbol" id="futbol"><label for="futbol">Fútbol</label></td>
+                <td><input type="checkbox" name="ciclismo" id="ciclismo"><label for="ciclismo">Ciclismo</label></td>
+              </tr>
+              <tr>
+                <td> <input type="checkbox" name="otroes" id="otroes"> <label for="otroes">Otro (especifique)</label> </td>
+                <td><textarea name="" id="" cols="30" rows="1"></textarea></td>
+              </tr>
+            </table>
+        </div>
+        <input type="button" value="Enviar">
+      </form>
+    </main><hr>
+    <footer>
+      <p>Desarrollador. Natalia Andrea Vera Torres</p>
+      <p>naverato@cesde.net - nataliavera2100@gmail.com</p>
+      <p>3157027060</p>
+    </footer>
+</body>
+</html>

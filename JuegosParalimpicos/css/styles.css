@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Glory', sans-serif;
+}
+h1{ 
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+p{
+    font-size: 12px;
+}
+/*Cabecera*/
+#fondo{
+    background-image: url(https://saef.org.za/wordpress/wp-content/uploads/2019/07/Tokyo-2020-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+}
+#cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: rgb(255, 0, 128);
+}
+/*Pictogramas*/
+.list-item{
+    width: 100px;
+    height: 100px;
+}
+.wrapper{
+    display: grid; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px ;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper1{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+.item1{
+    display: flex;
+}
+

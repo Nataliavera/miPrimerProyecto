@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Glory', sans-serif;
+}
+#fondo{
+    background-image: url(https://saef.org.za/wordpress/wp-content/uploads/2019/07/Tokyo-2020-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+p{
+    font-size: 12px;
+    text-align: left;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: rgb(255, 0, 128);
+}
+.container-table{
+    margin: 90px;
+    width: 40%;
+}
+table{
+    text-align: left;
+    width: 80%;
+    height: 50%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px;
+}
+thead{
+    background-color: tomato;
+    color: white;
+    font-size: 21;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+article{
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    text-align: center;
+}
